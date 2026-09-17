@@ -55,6 +55,7 @@ function updateBestScore() {
 }
 
 function bestScoresToDOM() {
+  console.log('bestScoreArray:', bestScoreArray);
   bestScores.forEach((bestScore, index) => {
     const bestScoreEl = bestScore;
     bestScoreEl.textContent = `${bestScoreArray[index].bestScore}s`;
@@ -73,6 +74,7 @@ function getSavedBestScores() {
     ];
     localStorage.setItem('bestScores', JSON.stringify(bestScoreArray));
   }
+  bestScoresToDOM();
 }
 
 function playAgain() {
@@ -241,7 +243,7 @@ function showCountdown() {
   splashPage.hidden = true;
   countDownStart();
   populateGamePage();
-  setTimeout(showGamePage, 400);
+  setTimeout(showGamePage, 4000);
 }
 
 // Get the value from selected radio button

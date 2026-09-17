@@ -193,7 +193,7 @@ function drop(e) {
   });
 
   const parent = listColumns[currentColumn];
-  parent.appendChild(draggedItem);
+  parent.insertBefore(draggedItem, parent.firstChild);
   dragging = false;
   rebuildArrays();
 }

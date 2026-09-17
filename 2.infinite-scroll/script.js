@@ -54,7 +54,7 @@ function displayPhotos() {
 
 // Unsplash API
 const count = 30;
-const apiKey = 'YOUR_API_KEY';
+const apiKey = 'API_KEY'; // Replace with your Unsplash API key
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`
 
 
