@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1379px;
+  margin: auto;
+}
+
+.title {
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  top: 236px;
+  left: 221px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 67.5px;
+  letter-spacing: 0%;
+  color: #54575A;
+}
+
+.text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  top: 403px;
+  left: 221px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.brand-img {
+  position: absolute;
+  width: 193px;
+  height: 47.63773727416992px;
+  top: 50.25px;
+  left: 221px;
+}
+
+.app-store-btn {
+  position: absolute;
+  width: 138.44346618652344px;
+  height: 46.277523040771484px;
+  top: 531px;
+  left: 221px;
+  opacity: 1;
+}
+
+.app-store-btn img {
+  width: 138.44346618652344px;
+  height: 46.277523040771484px;
+}
+
+.google-play-btn {
+  position: absolute;
+  width: 156.18612670898438px;
+  height: 46.27737045288086px;
+  top: 531px;
+  left: 381.81px;
+  opacity: 1;
+}
+
+.google-play-btn img {
+  width: 156.18612670898438px;
+  height: 46.27737045288086px;
+}
+
+.main-image-container {
+  position: absolute;
+  width: 535.7173461914062px;
+  height: 309.2696533203125px;
+  top: 229.73px;
+  left: 683.28px;
+  opacity: 1;
+}
+
+.main-image-container img {
+  height: 411.15175339870024px;
+}
+
+.profile-img {
+  position: absolute;
+  width: 224.00000000000006px;
+  height: 444.0000000000001px;
+  top: 686px;
+  left: 737px;
+  opacity: 1;
+
+}
+
+.orders-img {
+  position: absolute;
+  width: 224.00000000000006px;
+  height: 444.0000000000001px;
+  top: 913px;
+  left: 479px;
+  opacity: 1;
+}
+
+.home-img {
+  position: absolute;
+  width: 224.00000000000006px;
+  height: 444.0000000000001px;
+  top: 908px;
+  left: 995px;
+  opacity: 1;
+}
+
+.cart-img {
+  position: absolute;
+  width: 224.00000000000006px;
+  height: 222.0000000000001px;
+  top: 1157px;
+  left: 221px;
+  opacity: 1;
+}
+
+.product-img {
+  position: absolute;
+  width: 224.00000000000006px;
+  height: 222.0000000000001px;
+  top: 1157px;
+  left: 737px;
+  opacity: 1;
+
+}
+
+.background-toggles {
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+.background-toggles > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.background-1 {
+  background-color: #eceaef;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fdfbff' fill-opacity='0.32' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-2 {
+  background-color: #f3f8f7;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fdfbff' fill-opacity='0.32' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-3 {
+  background-color: #fff9f5;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fdfbff' fill-opacity='0.32' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
